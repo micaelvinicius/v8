@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>V8 infor</title>
+</head>
+<body>
+   <div id="login">
+        <div id="topLogin">
+            <img src="src/logo v8.png" alt="">
+            <h2>V8 Informações</h2>
+        </div> 
+        <div id="medLogin">
+            <h2 id="tituloLogin">Login</h2>
+            <input type="text" id="usuarioInput" placeholder="USUARIO" class="estiloLogin">
+            <input type="password" id="senhaInput" placeholder="SENHA" class="estiloLogin">
+            <div id="checkbox"> 
+                <div id="exibir">
+                <input type="checkbox" id="check">
+                <p>Exibir senha</p>
+                </div>
+                <a href="#"> <p>Esqueceu da senha</p></a> 
+            </div>
+            <button id="btnEntrar" onclick="btnEntrar()">ENTRAR</button>
+        </div>
+
+       
+   </div>
+   <div id="menuLateral">
+        <ul>
+            <li id="btnVolt" onclick="btnV()">
+                <img class="imgMenu" id="btnVoltar" src="src/de-volta.png" alt="">
+                <p id="textoV8">V8</p>
+                <img class="imgMenu" src="src/logo v8.png" alt="">
+            </li>
+            <li><img class="imgMenu" src="src/botao-de-inicio.png" alt=""> Home</li>
+            <li><img class="imgMenu" src="src/do-utilizador.png" alt=""> Clientes</li>
+            <li><img class="imgMenu" src="src/pasta-de-documentos.png" alt=""> Documentação</li>
+            <li><img class="imgMenu" src="src/documento.png" alt=""> Relatorios</li>
+        </ul>
+   </div>
+   <div id="home">
+        <div id="topHome">
+            <img class="imgTopMenu" src="src/menu.png" alt="" onclick="menuL(true)">
+            <img class="imgTopMenu" src="src/usuario.png" alt="">
+        </div>
+
+        <div id="tituloHome">
+            Olá! <p>Usuario</p>
+        </div>
+        <div id="campoPesquisa">
+            <div id="areaPesq">
+                <input type="text" placeholder="Nome do Cliente">
+                <img src="src/lupa.png" alt="">
+            </div>
+        </div>
+        <div id="areaAdd">
+            <div class="itemAdd">
+                <img src="src/add-user.png" alt="">
+                <div>
+                    Adicionar<br>Clientes
+                 </div>
+                
+            </div>
+            <div class="itemAdd">
+                <img src="src/add (3).png" alt="">
+                <div>
+                    Adicionar<br>Relatorios
+                 </div>
+            </div>
+            <div class="itemAdd">
+                <img src="src/add (2).png" alt="">
+                <div>
+                    Adicionar<br>Documento
+                 </div>
+            </div>
+            <div class="itemAdd">
+                <img src="src/web-maintenance.png" alt="">
+                <div>
+                    Adicionar<br>Manutencção
+                 </div>
+            </div>
+        </div>
+        <div id="areaManut">
+            <h3>Manutenções rencentes</h3>
+            <div id="subAreamanuten">
+                 <div class="itemManu">
+                    <img src="src/skyline.png" alt="">
+                    Bella Vista 
+                    <div id="data">01/01/2001</div>
+                </div>
+            </div>
+        </div>
+   </div>
+   <div id="areaAdd">
+    <div id="topAreaAdd">
+        
+    </div>
+   <script src="index.js"></script>
+</body>
+</html>

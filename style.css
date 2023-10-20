@@ -1,0 +1,242 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#login{
+
+}
+#topLogin{
+    background-color: black;
+    width: 100vw;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: sans-serif;
+}
+#tituloLogin{
+    margin: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: gray;
+}
+#medLogin{
+    margin-top: 20px;
+    width: 100vw;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.estiloLogin{
+    height: 40px;
+    border: 0px;
+    border-bottom: 1px solid rgb(124, 124, 124);
+    margin: 20px;
+    width: 80%;
+    font-size: 15px;
+    
+}
+.estiloLogin:focus{
+    border: 0px;
+    border-bottom: 1px solid rgb(182, 19, 19);
+    outline: 0;
+}
+.estiloLogin::placeholder{
+    font-size: 16px;
+}
+button{
+    margin-top: 30px;
+    padding: 15px;
+    width: 80%;
+    border-radius: 7px;
+    font-family: sans-serif;
+    border: 0;
+    outline: 0;
+    background-color: rgb(182, 19, 19);
+    box-shadow: 0px 0px 2px rgb(150, 150, 150);
+    color: white;
+    font-weight: 600;
+}
+button:active{
+    background-color: rgb(95, 7, 7);
+}
+#checkbox{
+    font-family: sans-serif;
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+#exibir{
+    display: flex;
+}
+#check{
+    margin-right: 10px;
+}
+
+/*menu lateral*/
+#menuLateral{
+    margin-left: -250px;
+    position: absolute;
+    transition: 0.5s;
+    width: 240px;
+    height: 600px;
+    background-color: rgb(241, 241, 241);
+    box-shadow: 0px 0px 2px rgb(138, 138, 138);
+}
+ul{
+    font-family: sans-serif;
+    padding: 5px 10px;
+    list-style: none;
+}
+li{ display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 20px 5px;
+    border-bottom: 1px solid rgb(245, 245, 245);
+}
+li:active{
+    background-color: rgb(182, 19, 19);
+    color: white;
+    border-radius: 10px;
+}
+#voltar{
+    padding: 20px 0px 0px 20px;
+}
+#btnVoltar{
+    height: 35px;
+    width: 35px;
+}
+#btnVolt{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+#textoV8{
+    color: white;
+    font-family: sans-serif;
+}
+.imgMenu{
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+
+#home{
+    display: none;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(247, 247, 247);
+}
+#topHome{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.imgTopMenu{
+    height: 40px;
+    width: 40px;
+    margin: 10px 15px;
+}
+#tituloHome{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 32px;
+    font-family: monospace;
+    font-weight: 700;
+}
+#campoPesquisa{
+    margin: 40px 10px;
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+    height: 60px;
+}
+#areaPesq{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    height: 80%;
+    width: 90%;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0px 0px 1px rgb(133, 133, 133);
+}
+#areaPesq input{
+    height: 28px;
+    width: 70%;
+    margin-left: 10px;
+    border: 0;
+}
+#areaPesq input:focus{
+    border: 0;
+    outline: none;
+}
+#areaPesq img{
+    margin-right: 10px;
+    height: 25px;
+    width: 25px;
+    padding: 5px;
+    background-color: rgb(182, 19, 19);
+    border-radius: 7px;
+}
+#areaAdd{
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+
+}
+.itemAdd{
+    background-color: black;
+    margin: 10px 0px;
+    width: 180px;
+    height: 140px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px gray;
+    color: white;
+    font-family: monospace;
+    font-size: 18px;
+}
+.itemAdd img{
+    margin: 20px 20px 10px 30px;
+    height: 50px;
+    width: 50px;
+}
+.itemAdd div{
+    margin: 0px 30px;
+}
+#areaManut{
+    width: 100vw;
+}
+#areaManut h3{
+    margin: 40px 20px;
+    font-size: 23px;
+    font-family: sans-serif;
+    font-weight: 700;
+}
+
+#subAreamanuten{
+    width: 100%;
+}
+.itemManu{
+    font-family: sans-serif;
+    display: flex;
+    font-size: 19px;
+    align-items: center;
+    padding: 15px 20px;
+    height: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 2px gray;
+    margin: 20px;
+    justify-content: space-around;
+    background-color: rgb(182, 19, 19);
+    color: white;
+}
+.itemManu img{
+    height: 30px;
+    height: 30px;
+}
+
